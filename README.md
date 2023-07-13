@@ -9,7 +9,6 @@
 ```bash:
 $docker-compose up -d --build
 ```
-
 ### react起動までの基本手順コマンド
 - `vscode`でコンテナ内部に入る。
 - `vscode`でターミナルを起動し作業ディレクトリに移動する。
@@ -18,22 +17,14 @@ $cd ../react_yarn_javascript_workdir/
 ```
 - `react`アプリの雛形を作成
 ```bash:
-$npx create-react-app react_npm_javascript
-```
-- `react`のアプリを`install`するかを聞かれるので`y`を入力して`Enter`を押す。
-```bash:
-Need to install the following packages:
-  create-react-app@5.0.1
-Ok to proceed? (y) 
+$yarn create react-app react_yarn_javascript
 ```
 - 作成されたディレクトリへ移動
 ```bash:
 $cd react_yarn_javascript/
 ```
 - `react`を起動する。
-
 ```bash:
-$npm start
+$yarn start
 ```
-
 #### 参考資料
